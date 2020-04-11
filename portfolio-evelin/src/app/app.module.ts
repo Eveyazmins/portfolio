@@ -5,12 +5,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { CarouselPortComponent } from './carousel-port/carousel-port.component';
 import { HeaderPortComponent } from './header-port/header-port.component';
+import { MisserviciosPortComponent } from './misservicios-port/misservicios-port.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselPortComponent,
-    HeaderPortComponent
+    HeaderPortComponent,
+    MisserviciosPortComponent
   ],
   imports: [
     BrowserModule,

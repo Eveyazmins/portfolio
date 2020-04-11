@@ -1,5 +1,10 @@
 /*
 .header .navbar {
-  background-color: transparent !important;
+  /*background-color: transparent !important;
 }
 */
+
+/* Para modificar el tamaño del nav*/
+.header .navbar{
+min-height: 8vh;
+}
